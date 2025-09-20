@@ -30,7 +30,7 @@ public class CustomerService {
     }
     
     public List<CustomerResponse> getCustomerList() {
-    		List<Customer> customers = (List<Customer>) repoCust.getAll();
+    	List<Customer> customers = (List<Customer>) repoCust.findAll();
     		
     		return customers.stream()
     			.map(c->new CustomerResponse(c.getId(), c.getName(), c.getEmail())).toList();

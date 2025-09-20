@@ -1,8 +1,8 @@
 package com.cp.lab8sec4.service;
 
-import com.cp.lab8.sec4.entity.Customer;
 import com.cp.lab8sec4.DTO.CustomerRequest;
 import com.cp.lab8sec4.DTO.CustomerResponse;
+import com.cp.lab8sec4.entity.Customer;
 import com.cp.lab8sec4.repository.CustomerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

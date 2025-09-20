@@ -1,4 +1,4 @@
-package com.cp.lab8.sec4.entity;
+package com.cp.lab8sec4.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
